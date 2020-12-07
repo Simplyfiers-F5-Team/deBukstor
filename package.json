@@ -1,0 +1,25 @@
+{
+    "name": "debukstor",
+    "version": "0.1.0",
+    "description": "The Bookstore project SPA with REST web API",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Simplyfiers-F5-Team/deBukstor.git"
+    },
+    "author": "imsuarezprieto@gmail.com",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/Simplyfiers-F5-Team/deBukstor/issues"
+    },
+    "homepage": "https://github.com/Simplyfiers-F5-Team/deBukstor#readme",
+    "dependencies": {
+        "express": "^4.17.1",
+        "express-handlebars": "^5.2.0",
+        "mongoose": "^5.11.5",
+        "sass": "^1.30.0"
+    }
+}
