@@ -3,8 +3,10 @@
     "version": "0.1.0",
     "description": "The Bookstore project SPA with REST web API",
     "main": "index.js",
+    "type": "module",
     "scripts": {
-        "start": "node index.js"
+        "start": "node --experimental-json-modules index.js",
+        "start:production": "set NODE_ENV=production&& node --experimental-json-modules index.js"
     },
     "repository": {
         "type": "git",
